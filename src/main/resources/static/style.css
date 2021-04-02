@@ -1,0 +1,104 @@
+* {
+    margin: 0; /*mezi contentem*/
+    padding: 0; /*mezi boxy*/
+    box-sizing: border-box; /* urceni sirky od border to border, */
+
+}
+
+body {
+    font-family: Garamond, Helvetica, Arial;
+    font-size: 18px;
+}
+
+h1, h2 {
+    color: #52734d;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    color: #52734d;
+    padding-top: 75px;
+    font-style: italic;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(139, 145, 145);
+
+}
+
+#main-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 1140px;
+    margin: 20px auto 0 auto;
+}
+
+section {
+    padding: 50px 0 50px 0;
+}
+#omne, #kontakt {
+    background-color: #f7f3e9;
+}
+
+#omne img {
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto 20px auto;
+}
+#fotogalerie {
+    background-color: #feffde;
+}
+
+#fotogalerie img {
+    display: inline-block;
+    width: 31%;
+    border: 2px solid rgb(100, 97, 97);
+    border-radius: 20px;
+    box-shadow: 0px 3px 5px rgb(100, 97, 97);
+}
+
+footer {
+    text-align: center;
+    color: rgb(61, 58, 58);
+    background: #feffde;
+}
+
+/* Menu */
+nav {
+    background: #91c788;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    display: block;
+    padding: 15px 30px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover,
+.menu a:active,
+.menu a:focus {
+    background-color: #332a2d;
+}
